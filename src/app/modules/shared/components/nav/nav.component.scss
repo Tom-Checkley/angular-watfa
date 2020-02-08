@@ -15,7 +15,9 @@ a {
 	color: $color-white;
 	font-weight: 700;
 
-	&:hover {
+	&:hover,
+	&:focus,
+	&.router-link-active {
 		text-decoration: underline;
 	}
 }

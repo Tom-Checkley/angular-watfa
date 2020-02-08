@@ -1,9 +1,21 @@
 <nav class="nav">
 		<div class="wrapper">
 			<ul>
-				<li><a [routerLink]="['']" routerLinkActive="router-link-active" >Home</a></li>
-				<li><a [routerLink]="['about']" routerLinkActive="router-link-active" >About</a></li>
-				<li><a [routerLink]="['blog']" routerLinkActive="router-link-active" >Blog</a></li>
+				<li>
+					<a [routerLink]="['']"
+						routerLinkActive="router-link-active" 
+						[routerLinkActiveOptions]="{exact: true}" >Home</a>
+				</li>
+				<li>
+					<a [routerLink]="['about']"
+						routerLinkActive="router-link-active"
+						[routerLinkActiveOptions]="{exact: true}" >About</a>
+				</li>
+				<li>
+					<a [routerLink]="['blog']"
+						routerLinkActive="router-link-active" 
+						[routerLinkActiveOptions]="{exact: true}" >Blog</a>
+				</li>
 			</ul>
 		</div>
 </nav>
