@@ -1,1 +1,11 @@
-<p>banner works!</p>
+<header [class]="banner.cssVariant">
+	<picture>
+		<img [src]="banner.bgImgUrl" alt="">
+	</picture>
+	<div class="wrapper">
+		<div class="titles">
+			<h1>{{ banner.title }}</h1>
+			<h2>{{ banner.subtitle }}</h2>
+		</div>
+	</div>
+</header>

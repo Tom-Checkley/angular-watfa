@@ -6,10 +6,10 @@ import { AboutComponent } from './modules/shared/components/about/about.componen
 
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'home' },
-  { path: 'home', component: HomeComponent },
+  // { path: '', pathMatch: 'full', redirectTo: 'home' },
+  // { path: 'home', component: HomeComponent },
 
-  // { path: '', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
 ];
 
