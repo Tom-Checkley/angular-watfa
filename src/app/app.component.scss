@@ -1,0 +1,17 @@
+@import 'src/scss/abstracts/_index';
+
+.app {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex-grow: 1;
+}
+
+app-nav,
+app-footer {
+	background-color: $color-grey-dark;
+}
+
